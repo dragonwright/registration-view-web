@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+bin/falcon serve -b http://localhost:9292

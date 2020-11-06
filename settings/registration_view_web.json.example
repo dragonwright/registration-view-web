@@ -1,0 +1,32 @@
+{
+  "registration_view_web": {
+    "authorization" : {
+      "command_input_namespace": "dragonwright.registration.input",
+      "query_payload_namespace": "dragonwright.registration.payload",
+      "secret": "test123",
+      "issuer": "dragonwright.registration",
+      "audience": "dragonwright.registration"
+    },
+    "message_store": {
+      "dbname": "message_store",
+      "host": "localhost",
+      "hostaddr": "127.0.0.1",
+      "port": 5432,
+      "user": "message_store"
+    },
+    "view_data_pg": {
+      "dbname": "view_data",
+      "host": "localhost",
+      "hostaddr": "127.0.0.1",
+      "port": 5432,
+      "user": "view_data",
+      "password": null,
+      "connectTimeout": null,
+      "options": null,
+      "sslmode": null,
+      "krbsrvname": null,
+      "gsslib": null,
+      "service": null
+    }
+  }
+}
